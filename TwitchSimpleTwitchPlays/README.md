@@ -3,11 +3,12 @@ A very simple python script allowing anyone to easily make a TwitchPlays setup
 
 ### Instructions
 1) Download and extract the SimpleTwitchPlays folder
-2) Ensure you have Python 3+ installed on your computer, and pip install everything from the requirements.txt file
-3) Open Keyboard_Mouse_Toggles.py and set any toggles (inputToggles and keyboardToggles) to False to disable them
-4) Open Twitch_Channel_Details.py and set the values according to the commented instructions within
-5) Run _PROGRAM.py
-6) In your channel's Twitch chat, use the keywords to trigger input (only the first command detected is run)
+2) Use ```pip install -r requirements.txt``` to install requirements
+3) Ensure you have Python 3+ installed on your computer, and pip install everything from the requirements.txt file
+4) Open Keyboard_Mouse_Toggles.py and set any toggles (inputToggles and keyboardToggles) to False to disable them
+5) Open Twitch_Channel_Details.py and set the values according to the commented instructions within
+6) Run _PROGRAM.py
+7) In your channel's Twitch chat, use the keywords to trigger input (only the first command detected is run)
 
 ### Advanced Keywords (multiple arguments)
 - "move_mouse 100 200" (replace 100 and 200 with whatever X and Y value to move relative to current position)
